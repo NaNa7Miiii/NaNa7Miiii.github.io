@@ -1,0 +1,155 @@
+/* 全局设置 */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 30px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+a {
+  color: #0077b5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004c8c;
+  text-decoration: none;
+}
+
+/* 头部设置 */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* 导航设置 */
+nav.contact-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav.contact-links h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+nav.contact-links ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav.contact-links li {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* 教育、工作经历、技能、专业活动和社会服务活动等区域的设置 */
+section {
+  background-color: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5em;
+  border-bottom: 2px solid #0077b5;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.contact-links i {
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: #0077b5;
+}
+
+.location-date {
+  display: block;
+  font-size: 0.9em;
+  text-align: right;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* 导航设置 */
+nav.contact-links {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav.contact-links h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+nav.contact-links ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px; /* 可根据需要调整这个值 */
+}
+
+nav.contact-links li {
+  flex-basis: 30%; /* 这将使每个项目占据大约1/3的宽度 */
+  text-align: center;
+  margin: 5px 0;
+}
